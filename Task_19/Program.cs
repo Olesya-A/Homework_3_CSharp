@@ -34,3 +34,17 @@ else
 // {
 // Console.WriteLine("Число НЕ является полиндромом");
 // }
+
+// ФУНКЦИЯ, КОТОРАЯ ПРОВЕРЯЕТ, ЯВЛЯЕТСЯ ЛИ ЧИСЛО ПОЛИНДРОМОМ
+
+// bool Polindrom(string number)
+// {
+// for (int i = 0; i < number.Length / 2; i++)
+// {
+// // check = check & number[i] == number[number.Length - i - 1];
+// if (number[i] != number[number.Length - i - 1])
+// return false;
+// }
+
+// return true;
+// }
